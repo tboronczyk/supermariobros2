@@ -671,9 +671,9 @@ TitleCardText:
 	; Level indicator dots
 	.db $25, $0E, $07
 	.db $FB, $FB, $FB, $FB, $FB, $FB, $FB
-	; WORLD  1-1
+	; MONDO  1-1
 	.db $24, $CA, $0B
-	.db $FB, $F0, $E8, $EB, $E5, $DD, $FB, $FB, $D1, $F3, $D1
+	.db $FB, $E6, $E8, $E7, $DD, $E8, $FB, $FB, $D1, $F3, $D1
 	; EXTRA LIFE...  0
 	.db $23, $48, $10
 	.db $DE, $F1, $ED, $EB, $DA, $FB, $E5, $E2, $DF, $DE
@@ -685,10 +685,10 @@ Text_WARP:
 
 ; Doki Doki Panic pseudo-leftover
 ; This actually has extra spaces on either end:
-; "-WORLD-" ... It originally said "CHAPTER"
+; "-MONDO-" ... It originally said "CHAPTER"
 Text_WORLD_1:
 	.db $22, $0C, $09
-	.db $FB, $F0, $E8, $EB, $E5, $DD, $FB, $FB, $D1
+	.db $FB, $E6, $E8, $E7, $DD, $E8, $FB, $FB, $D1
 	.db $00
 Text_Unknown6:
 	.db $21, $6A, $01, $FB
