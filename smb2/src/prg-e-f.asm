@@ -52,9 +52,9 @@ ScreenUpdateBufferPointers:
 	.dw PPUBuffer_BonusChanceLayout
 
 PPUBuffer_CharacterSelect:
-	.db $21, $49, $06, $E9, $E5, $DE, $DA, $EC, $DE ; PLEASE
-	.db $21, $50, $06, $EC, $DE, $E5, $DE, $DC, $ED ; SELECT
-	.db $21, $8C, $06, $E9, $E5, $DA, $F2, $DE, $EB ; PLAYER
+	.db $21, $49, $07, $DB, $E8, $E7, $EF, $E8, $E5, $EE ; BONVOLU
+	.db $21, $51, $06, $DE, $E5, $DE, $E4, $ED, $E2 ; ELEKTI
+	.db $21, $8C, $07, $EB, $E8, $E5, $EE, $E5, $E8, $E7 ; ROLULON
 	.db $20, $00, $20, $B7, $B8, $B7, $B8, $B7, $B8, $B7, $B8, $B7, $B8, $B7, $B8 ; Probably the checkerboard diamonds or w/e
 	.db $B7, $B8, $B7, $B8, $B7, $B8, $B7, $B8, $B7, $B8, $B7, $B8, $B7, $B8, $B7 ; $F
 	.db $B8, $B7, $B8, $B7, $B8 ; $1E
@@ -118,7 +118,7 @@ PPUBuffer_TitleCard:
 	.db $3E, $0E, $0E, $0E, $0E, $0E, $0E, $8E, $32
 	.db $23, $CF, $01, $8C
 	.db $23, $D0, $10
-	.db $32, $00, $A0, $A0, $A0, $20, $00, $8C, $32, $00, $00, $0A, $02, $00, $00, $8C
+	.db $32, $00, $A0, $A0, $A0, $A0, $00, $8C, $32, $00, $00, $0A, $0A, $00, $00, $8C
 	.db $23, $E0, $09
 	.db $32, $00, $00, $0E, $00, $00, $00, $8C, $32
 	.db $23, $EF, $01, $8C
