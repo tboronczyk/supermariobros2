@@ -5071,7 +5071,7 @@ TitleSpritePalettes:
 	.db $22, $30, $23, $0F
 
 TitleStoryText_STORY:
-	.db $EC, $ED, $E8, $EB, $F2 ; STORY
+	.db $EB, $DA, $E4, $E8, $E7, $ED, $E8 ; RAKONTO
 
 TitleStoryTextPointersHi:
 	.db >TitleStoryText_Line01
@@ -5409,20 +5409,20 @@ loc_BANK0_9B63:
 TitleScreen_WriteSTORYText:
 	LDA #$20
 	STA PPUBuffer_301
-	LDA #$0AE
+	LDA #$0AD
 	STA PPUBuffer_301 + 1
-	LDA #$05 ; Length of STORY text (5 bytes)
+	LDA #$07 ; Length of RAKONTO text (7 bytes)
 	STA PPUBuffer_301 + 2
-	LDY #$04 ; Bytes to copy minus one (5-1=4)
+	LDY #$06 ; Bytes to copy minus one (7-1=6)
 
 TitleScreen_WriteSTORYTextLoop:
-	LDA TitleStoryText_STORY, Y ; Copy STORY text to PPU write buffer
+	LDA TitleStoryText_STORY, Y ; Copy RAKONTO text to PPU write buffer
 	STA PPUBuffer_301 + 3, Y
 	DEY
 	BPL TitleScreen_WriteSTORYTextLoop
 
-	LDA #$00 ; Terminate STORY text in buffer
-	STA PPUBuffer_301 + 8
+	LDA #$00 ; Terminate RAKONTO text in buffer
+	STA PPUBuffer_301 + 10
 
 loc_BANK0_9B93:
 	INC ObjectXHi + 3
