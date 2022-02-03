@@ -1891,16 +1891,16 @@ DisableNMI:
 
 PPUBuffer_Text_Game_Over:
 	.db $21, $CB, $0A
-	.db $E0, $DA, $E6, $DE, $FB, $FB, $E8, $EF, $DE, $EB ; GAME OVER
+	.db $FB, $FB, $E5, $EE, $DD, $DF, $E2, $E7, $E8, $FB ; LUDFINO
 	.db $00
 
 PPUBuffer_Text_Continue:
 	.db $21, $75, $01, $00 ; (Placeholder for continue count)
-	.db $21, $6A, $0A, $F6, $FB, $DC, $E8, $E7, $ED, $E2, $E7, $EE, $DE ; * CONTINUE
+	.db $21, $6A, $0A, $F6, $FB, $DD, $DA, $F2, $EB, $E2, $E0, $E2, $FB ; * DAUXRIGI
 
 PPUBuffer_Text_Retry:
-	.db $21, $AA, $07, $F6, $FB, $EB, $DE, $ED, $EB, $F2 ; * RETRY
-	.db $21, $CB, $0A, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB ; Blank, erases "GAME OVER"
+	.db $21, $AA, $09, $F6, $FB, $EB, $DE, $E9, $EB, $E8, $EF, $E2 ; * REPROVI
+	.db $21, $CB, $09, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB ; Blank, erases "GAME OVER"
 	.db $00
 
 BonusChanceUpdateBuffer_BONUS_CHANCE_Unused:
