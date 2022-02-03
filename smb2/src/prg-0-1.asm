@@ -5112,68 +5112,68 @@ TitleStoryTextPointersLo:
 	.db <TitleStoryText_Line16
 
 TitleStoryText_Line01:
-	.db $F0, $E1, $DE, $E7, $FB, $FB, $E6, $DA, $EB, $E2, $E8, $FB, $E8, $E9, $DE, $E7
-	.db $DE, $DD, $FB, $DA ; WHEN MARIO OPENED A
+	.db $E6, $DA, $EB, $E2, $E8, $FB, $E0, $EB, $E2, $E6, $E9, $E2, $EC, $FB, $E5, $E8
+	.db $E7, $E0, $DA, $E7 ; MARIO GRIMPIS LONGAN
 
 TitleStoryText_Line02:
-	.db $DD, $E8, $E8, $EB, $FB, $DA, $DF, $ED, $DE, $EB, $FB, $FB, $DC, $E5, $E2, $E6
-	.db $DB, $E2, $E7, $E0 ; DOOR AFTER CLIMBING
+	.db $F1, $ED, $EE, $E9, $DA, $EB, $E8, $E7, $FB, $FB, $F0, $E2, $EC, $FB, $FB, $E9	
+	.db $E8, $EB, $DD, $E8 ; SXTUPARON GXIS PORDO
 
 TitleStoryText_Line03:
-	.db $DA, $FB, $E5, $E8, $E7, $E0, $FB, $EC, $ED, $DA, $E2, $EB, $FB, $E2, $E7, $FB
-	.db $FB, $E1, $E2, $EC ; A LONG STAIR IN HIS
+	.db $DE, $E7, $FB, $EC, $E2, $DA, $FB, $EC, $E8, $E7, $F0, $E8, $F7, $FB, $E9, $EB
+	.db $DE, $ED, $DE, $EB ; EN SIA SONGXO, PRETER
 
 TitleStoryText_Line04:
-	.db $DD, $EB, $DE, $DA, $E6, $F7, $FB, $DA, $E7, $E8, $ED, $E1, $DE, $EB, $FB, $F0
-	.db $E8, $EB, $E5, $DD ; DREAM, ANOTHER WORLD
+	.db $E4, $E2, $EE, $FB, $FB, $E6, $DA, $E5, $E4, $DA, $F1, $E2, $F0, $DA, $EC, $FB
+	.db $DA, $E5, $E2, $DA ; KIU MALKASXIGXAS ALIA
 
 TitleStoryText_Line05:
-	.db $EC, $E9, $EB, $DE, $DA, $DD, $FB, $FB, $FB, $DB, $DE, $DF, $E8, $EB, $DE, $FB
-	.db $FB, $E1, $E2, $E6 ; SPREAD BEFORE HIM
+	.db $E6, $E8, $E7, $DD, $E8, $F7, $FB, $E4, $DA, $E3, $FB, $FB, $E5, $E2, $FB, $DA
+	.db $F2, $DD, $E2, $EC ; MONDO, KAJ LI AUXDIS
 
 TitleStoryText_Line06:
-	.db $DA, $E7, $DD, $FB, $E1, $DE, $FB, $E1, $DE, $DA, $EB, $DD, $FB, $DA, $FB, $EF
-	.db $E8, $E2, $DC, $DE ; AND HE HEARD A VOICE
+	.db $EF, $E8, $EA, $E8, $E7, $FB, $E9, $DE, $ED, $DA, $E7, $ED, $DA, $E7, $FB, $E1
+	.db $DE, $E5, $E9, $F4 ; VOCXON PETANTAN HELP-
 
 TitleStoryText_Line07:
-	.db $DC, $DA, $E5, $E5, $FB, $DF, $E8, $EB, $FB, $E1, $DE, $E5, $E9, $FB, $ED, $E8
-	.db $FB, $FB, $DB, $DE ; CALL FOR HELP TO BE
+	.db $E8, $E7, $FB, $FB, $E5, $E2, $DB, $DE, $EB, $E2, $E0, $E2, $FB, $F0, $E2, $E7
+	.db $FB, $FB, $DD, $DE ; ON LIBERIGI GXIN DE
 
 TitleStoryText_Line08:
-	.db $FB, $DF, $EB, $DE, $DE, $DD, $FB, $FB, $DF, $EB, $E8, $E6, $FB, $DA, $FB, $EC
-	.db $E9, $DE, $E5, $E5 ; FREED FROM A SPELL
+	.db $FB, $EC, $E8, $EB, $EA, $DA, $CF, $E8, $F6, $FB, $FB, $FB, $FB, $FB, $FB, $FB
+	.db $FB, $FB, $FB, $FB ; SORCXAJXO.
 
 TitleStoryText_Line09:
-	.db $DA, $DF, $ED, $DE, $EB, $FB, $FB, $DA, $F0, $DA, $E4, $DE, $E7, $E2, $E7, $E0
-	.db $F7, $FB, $FB, $FB ; AFTER AWAKENING,
+	.db $E9, $E8, $EC, $ED, $FB, $E5, $DA, $FB, $EF, $DE, $E4, $E2, $F0, $E8, $F7, $FB
+	.db $FB, $FB, $FB, $FB ; POST LA VEKIGXO
 
 TitleStoryText_Line10:
-	.db $E6, $DA, $EB, $E2, $E8, $FB, $FB, $F0, $DE, $E7, $ED, $FB, $ED, $E8, $FB, $FB
-	.db $DA, $FB, $FB, $FB ; MARIO WENT TO A
+	.db $E6, $DA, $EB, $E2, $E8, $FB, $EF, $E2, $F3, $E2, $ED, $E2, $EC, $FB, $E4, $DA
+	.db $EF, $E8, $E7, $F6 ; MARIO VIZITIS KAVON.
 
 TitleStoryText_Line11:
-	.db $DC, $DA, $EF, $DE, $FB, $FB, $E7, $DE, $DA, $EB, $DB, $F2, $FB, $DA, $E7, $DD
-	.db $FB, $FB, $ED, $E8 ; CAVE NEARBY AND TO
+	.db $EC, $EE, $EB, $E9, $EB, $E2, $F3, $DE, $F7, $FB, $FB, $E5, $E2, $FB, $FB, $EF
+	.db $E2, $DD, $E2, $EC ; SURPRIZE, LI VIDIS
 
 TitleStoryText_Line12:
-	.db $E1, $E2, $EC, $FB, $FB, $EC, $EE, $EB, $E9, $EB, $E2, $EC, $DE, $FB, $E1, $DE
-	.db $FB, $EC, $DA, $F0 ; HIS SURPRISE HE SAW
+	.db $E5, $DA, $FB, $FB, $EC, $DA, $E6, $DA, $E7, $FB, $EF, $E2, $DD, $DA, $CF, $E8
+	.db $E7, $FB, $DD, $DE ; LA SAMAN VIDAJXON DE
 
 TitleStoryText_Line13:
-	.db $DE, $F1, $DA, $DC, $ED, $E5, $F2, $FB, $FB, $F0, $E1, $DA, $ED, $FB, $E1, $DE
-	.db $FB, $EC, $DA, $F0 ; EXACTLY WHAT HE SAW
+	.db $EC, $E2, $DA, $FB, $EC, $E8, $E7, $F0, $E8, $F6, $F6, $F6, $FB, $FB, $FB, $FB
+	.db $FB, $FB, $FB, $FB ; SIA SONGXO...
 
 TitleStoryText_Line14:
-	.db $E2, $E7, $FB, $E1, $E2, $EC, $FB, $DD, $EB, $DE, $DA, $E6, $CF, $CF, $CF, $CF
-	.db $FB, $FB, $FB, $FB ; IN HIS DREAM....
+	.db $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB
+	.db $FB, $FB, $FB, $FB ; (blank)
 
 TitleStoryText_Line15:
 	.db $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB, $FB
 	.db $FB, $FB, $FB, $FB ; (blank)
 
 TitleStoryText_Line16:
-	.db $FB, $FB, $E9, $EE, $EC, $E1, $FB, $EC, $ED, $DA, $EB, $ED, $FB, $DB, $EE, $ED
-	.db $ED, $E8, $E7, $FB ; PUSH START BUTTON
+	.db $FB, $E9, $EB, $DE, $E6, $EE, $FB, $DB, $EE, $ED, $E8, $E7, $E8, $E7, $FB, $EC
+	.db $ED, $DA, $EB, $ED ; PREMU BUTONON START
 
 TitleAttributeData1:
 	.db $23, $CB, $42, $FF
