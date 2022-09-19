@@ -640,9 +640,9 @@ BonusChanceText_PLAYER_1UP:
 	.db $00
 
 Text_PAUSE:
-	.db $25, $ED, $05
-	.db $E9, $DA, $EE, $EC, $DE ; PAUSE
-	.db $27, $DB, $02, $AA, $AA ; attribute data
+	.db $25, $ED, $07
+	.db $E9, $DA, $F2, $F1, $E2, $ED, $DA ; PAUXZITA
+	.db $27, $DB, $03, $AA, $AA, $AA ; attribute data
 	.db $00
 
 ; Erases NO BONUS / PUSH (A) BUTTON / PLAYER 1UP
@@ -659,12 +659,10 @@ BonusChanceText_PUSH_A_BUTTON_Erase:
 ; More leftovers. The placement matches the original Doki Doki Panic Bonus Chance screen's placement
 ; of the "PLAYER  1UP" message.
 BonusChanceText_Message_Erase_Unused:
-	.db $22, $EB, $4B, $FB
-	.db $00
 
 Text_PAUSE_Erase:
-	.db $25, $ED, $05
-	.db $FB, $FB, $FB, $FB, $FB
+	.db $25, $ED, $07
+	.db $FB, $FB, $FB, $FB, $FB, $FB, $FB
 	.db $00
 
 TitleCardText:

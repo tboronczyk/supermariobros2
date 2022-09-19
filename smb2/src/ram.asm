@@ -1966,25 +1966,25 @@ PPUBuffer_PauseText:
 	.dsb 1 ; $06d7
 	.dsb 1 ; $06d8
 	.dsb 1 ; $06d9
-PPUBuffer_EraseBonusMessageText:
 	.dsb 1 ; $06da
 	.dsb 1 ; $06db
 	.dsb 1 ; $06dc
+PPUBuffer_EraseBonusMessageText:
 	.dsb 1 ; $06dd
 	.dsb 1 ; $06de
-PPUBuffer_ErasePushAButton:
 	.dsb 1 ; $06df
 	.dsb 1 ; $06e0
 	.dsb 1 ; $06e1
+PPUBuffer_ErasePushAButton:
 	.dsb 1 ; $06e2
 	.dsb 1 ; $06e3
-PPUBuffer_EraseBonusMessageTextUnused:
 	.dsb 1 ; $06e4
 	.dsb 1 ; $06e5
 	.dsb 1 ; $06e6
+PPUBuffer_EraseBonusMessageTextUnused:
+PPUBuffer_ErasePauseText:
 	.dsb 1 ; $06e7
 	.dsb 1 ; $06e8
-PPUBuffer_ErasePauseText:
 	.dsb 1 ; $06e9
 	.dsb 1 ; $06ea
 	.dsb 1 ; $06eb
