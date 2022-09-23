@@ -31,3 +31,5 @@ dd if=gfx/z.bin of="$ROM" conv=notrunc bs=1 seek=$((0x30720))
 dd if=gfx/z.bin of="$ROM" conv=notrunc bs=1 seek=$((0x30F20))
 dd if=gfx/z.bin of="$ROM" conv=notrunc bs=1 seek=$((0x31720))
 dd if=gfx/z.bin of="$ROM" conv=notrunc bs=1 seek=$((0x31F20))
+echo "\nUpdating graphics..."
+dd if=gfx/1up.bin of="$ROM" conv=notrunc bs=1 seek=$((0x22710))
