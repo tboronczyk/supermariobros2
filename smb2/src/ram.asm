@@ -2172,9 +2172,9 @@ TitleCard_ExtraLife_DrawAddress = $7180
 TitleCard_Lives = $7191
 
 PPUBuffer_WarpToWorld = $7194
-WarpToWorld_World = $71a6
+WarpToWorld_World = $71a7
 
-PPUBuffer_ContinueRetryBullets = $71a8
+PPUBuffer_ContinueRetryBullets = $71a9
 
 ; Copied from bank A
 FlyingCarpetAcceleration_RAM = $71cc

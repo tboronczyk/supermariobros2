@@ -679,7 +679,7 @@ TitleCardText:
 	.db $00
 
 Text_WARP:
-	.db $21, $8E, $04, $F0, $DA, $EB, $E9
+	.db $21, $8E, $05, $EF, $DA, $EB, $E9, $E8
 
 ; Doki Doki Panic pseudo-leftover
 ; This actually has extra spaces on either end:
@@ -700,8 +700,8 @@ UnusedText_THANK_YOU:
 	.db $21, $0C, $09
 	.db $ED, $E1, $3A, $E7, $E4, $FB, $F2, $E8, $EE
 UnusedText_Blank214D:
-	.db $21, $4D, $06
-	.db $FB, $FB, $FB, $FB, $FB, $FB
+	.db $21, $4D, $05
+	.db $FB, $FB, $FB, $FB, $FB
 	.db $00
 
 IFDEF CONTROLLER_2_DEBUG
