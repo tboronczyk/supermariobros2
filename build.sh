@@ -34,3 +34,6 @@ dd if=gfx/z.bin of="$ROM" conv=notrunc bs=1 seek=$((0x31F20))
 echo "\nUpdating graphics..."
 dd if=gfx/bomb.bin of="$ROM" conv=notrunc bs=1 seek=$((0x22210))
 dd if=gfx/1up.bin of="$ROM" conv=notrunc bs=1 seek=$((0x22710))
+# see https://tcrf.net/Super_Mario_Bros._2_(NES)
+echo "\nFix missing animation frame..."
+echo -n '(' | dd of="$ROM" conv=notrunc bs=1 seek=$((0x1FB05))
