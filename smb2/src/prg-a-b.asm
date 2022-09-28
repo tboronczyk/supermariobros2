@@ -672,10 +672,10 @@ TitleCardText:
 	; MONDO  1-1
 	.db $24, $CA, $0B
 	.db $FB, $E6, $E8, $E7, $DD, $E8, $FB, $FB, $D1, $F3, $D1
-	; EXTRA LIFE...  0
-	.db $23, $48, $10
-	.db $DE, $F1, $ED, $EB, $DA, $FB, $E5, $E2, $DF, $DE
-	.db $F9, $F9, $F9, $FB, $FB, $D0
+	; RESTANTAJ VIVOJ  0
+	.db $23, $47, $12
+	.db $EB, $DE, $EC, $ED, $DA, $E7, $ED, $DA, $E3, $FB
+	.db $EF, $E2, $EF, $E8, $E3, $FB, $FB, $D0
 	.db $00
 
 Text_WARP:
@@ -700,8 +700,8 @@ UnusedText_THANK_YOU:
 	.db $21, $0C, $09
 	.db $ED, $E1, $3A, $E7, $E4, $FB, $F2, $E8, $EE
 UnusedText_Blank214D:
-	.db $21, $4D, $05
-	.db $FB, $FB, $FB, $FB, $FB
+	.db $21, $4D, $03
+	.db $FB, $FB, $FB
 	.db $00
 
 IFDEF CONTROLLER_2_DEBUG

@@ -2169,12 +2169,12 @@ TitleCard_LevelDots = $716b
 TitleCard_World = $717d
 TitleCard_Level = $717f
 TitleCard_ExtraLife_DrawAddress = $7180
-TitleCard_Lives = $7191
+TitleCard_Lives = $7193
 
-PPUBuffer_WarpToWorld = $7194
-WarpToWorld_World = $71a7
+PPUBuffer_WarpToWorld = $7196
+WarpToWorld_World = $71a9
 
-PPUBuffer_ContinueRetryBullets = $71a9
+PPUBuffer_ContinueRetryBullets = $71ab
 
 ; Copied from bank A
 FlyingCarpetAcceleration_RAM = $71cc
