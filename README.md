@@ -20,3 +20,5 @@ Here are some pretty screenshots:
 
 ![Story intro](images/image-1.png)
 
+![Character select](images/image-2.png)
+
