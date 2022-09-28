@@ -180,8 +180,8 @@ PPUBuffer_TitleCard:
 
 ; nametable attribute data
 PPUBuffer_PauseExtraLife:
-	.db $27, $EA, $05
-	.db $AA, $AA, $AA, $AA, $AA
+	.db $27, $E9, $06
+	.db $AA, $AA, $AA, $AA, $AA, $AA
 
 ; This draws two columns of black tiles along the right side of the nametable to the left of the
 ; title card, which was the character/level select in Doki Doki Panic. In SMB2, it remains unused.
@@ -1939,7 +1939,7 @@ PauseScreen_ExtraLife:
 	; Draw EXTRA LIFE text near bottom of card
 	LDA #$26
 	STA TitleCard_ExtraLife_DrawAddress
-	LDA #$C8
+	LDA #$C7
 	STA TitleCard_ExtraLife_DrawAddress + 1
 
 ;
