@@ -631,7 +631,7 @@ BonusChanceText_NO_BONUS:
 
 BonusChanceText_PUSH_A_BUTTON:
 	.db $22, $89, $0E
-	.db $E9, $EE, $EC, $E1, $FB, $0E, $F,$FB, $DB, $EE, $ED, $ED, $E8, $E7 ; PUSH (A) BUTTON
+	.db $FB, $E9, $EB, $DE, $E6, $EE, $FB, $DB, $EE, $ED, $E8, $E7, $E8, $E7 ; PREMU BUTONON
 	.db $00
 
 BonusChanceText_PLAYER_1UP:
