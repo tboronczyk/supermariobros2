@@ -636,7 +636,7 @@ BonusChanceText_PUSH_A_BUTTON:
 
 BonusChanceText_PLAYER_1UP:
 	.db $22, $8B, $0B
-	.db $E9, $E5, $DA, $F2, $DE, $EB, $FB, $FB, $D1, $EE, $E9 ; PLAYER  1UP
+	.db $FB, $EF, $E2, $EF, $E8, $E3, $FB, $FA, $D1, $FB, $FB ; VIVOJ +1
 	.db $00
 
 Text_PAUSE:
