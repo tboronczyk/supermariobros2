@@ -571,10 +571,13 @@ CastRoll_ScrollSprites_AfterSpriteCounter:
 
 
 CastRoll_CASTText:
-	.db $60, $D4, $00, $28
-	.db $60, $D0, $00, $38
-	.db $60, $F4, $00, $48
-	.db $60, $F6, $00, $58
+	.db $60, $F2, $00, $28 ; R
+	.db $60, $EC, $00, $30 ; O
+	.db $60, $E6, $00, $38 ; L
+	.db $60, $F8, $00, $40 ; U
+	.db $60, $E6, $00, $48 ; L
+	.db $60, $EC, $00, $50 ; O
+	.db $60, $E2, $00, $58 ; J
 
 
 ;
@@ -670,7 +673,7 @@ MarioDream_CastRollSetup_BottomCrop_Loop:
 	BPL MarioDream_CastRollSetup_BottomCrop_Loop
 
 	; Draw "CAST" sprite
-	LDX #$0F
+	LDX #$1C
 MarioDream_CastRollSetup_CAST_Loop:
 	LDA CastRoll_CASTText, X
 	STA SpriteDMAArea + $40, X
@@ -777,6 +780,9 @@ CastRoll_CrawlStart:
 	STA SpriteDMAArea + $44
 	STA SpriteDMAArea + $48
 	STA SpriteDMAArea + $4C
+	STA SpriteDMAArea + $50
+	STA SpriteDMAArea + $54
+	STA SpriteDMAArea + $58
 	LDA CastRollSprite1A
 	CMP #$10
 	BNE CastRollSprite1
@@ -785,7 +791,10 @@ CastRoll_CrawlStart:
 	STA SpriteDMAArea + $40
 	STA SpriteDMAArea + $44
 	STA SpriteDMAArea + $48
-	STA SpriteDMAArea + $4A
+	STA SpriteDMAArea + $4C
+	STA SpriteDMAArea + $50
+	STA SpriteDMAArea + $54
+	STA SpriteDMAArea + $58
 	INC CastRollSequenceIndex
 	LDA #$00
 	STA CastRollSpriteActive4
