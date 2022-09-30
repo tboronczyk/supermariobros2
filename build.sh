@@ -32,9 +32,19 @@ dd if=gfx/z.bin of="$ROM" conv=notrunc bs=1 seek=$((0x30F20))
 dd if=gfx/z.bin of="$ROM" conv=notrunc bs=1 seek=$((0x31720))
 dd if=gfx/z.bin of="$ROM" conv=notrunc bs=1 seek=$((0x31F20))
 dd if=gfx/plus.bin of="$ROM" conv=notrunc bs=1 seek=$((0x2DFB0))
+
 echo "\nUpdating graphics..."
 dd if=gfx/bomb.bin of="$ROM" conv=notrunc bs=1 seek=$((0x22210))
 dd if=gfx/1up.bin of="$ROM" conv=notrunc bs=1 seek=$((0x22710))
+dd if=gfx/pow1.bin of="$ROM" conv=notrunc bs=1 seek=$((0x26410))
+dd if=gfx/pow2.bin of="$ROM" conv=notrunc bs=1 seek=$((0x26C10))
+dd if=gfx/pow3.bin of="$ROM" conv=notrunc bs=1 seek=$((0x27410))
+dd if=gfx/pow4.bin of="$ROM" conv=notrunc bs=1 seek=$((0x27C10))
+dd if=gfx/pow5.bin of="$ROM" conv=notrunc bs=1 seek=$((0x28410))
+dd if=gfx/pow6.bin of="$ROM" conv=notrunc bs=1 seek=$((0x28C10))
+dd if=gfx/pow7.bin of="$ROM" conv=notrunc bs=1 seek=$((0x29410))
+dd if=gfx/pow8.bin of="$ROM" conv=notrunc bs=1 seek=$((0x29C10))
+
 # see https://tcrf.net/Super_Mario_Bros._2_(NES)
 echo "\nFix missing animation frame..."
 echo -n '(' | dd of="$ROM" conv=notrunc bs=1 seek=$((0x1FB05))
