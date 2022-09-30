@@ -6374,7 +6374,7 @@ EndingCelebrationCeilingTextAndPodium:
 	.db $21, $08, $01, $5B
 	.db $21, $09, $4E, $9A
 	.db $21, $17, $01, $5D
-	.db $20, $AB, $0B, $DC, $E8, $E7, $ED, $EB, $E2, $DB, $EE, $ED, $E8, $EB
+	.db $20, $AA, $0C, $E4, $E8, $E7, $ED, $EB, $E2, $DB, $EE, $DA, $E7, $ED, $E8 ; KONTRIBUANTO
 	.db $20, $E3, $04, $40, $42, $44, $46
 	.db $20, $F9, $04, $40, $42, $44, $46
 	.db $21, $23, $C9, $48
