@@ -1467,15 +1467,15 @@ byte_RAM_588:
 	.dsb 1 ; $0596
 	.dsb 1 ; $0597
 	.dsb 1 ; $0598
-byte_RAM_599:
 	.dsb 1 ; $0599
-byte_RAM_59A:
 	.dsb 1 ; $059a
 	.dsb 1 ; $059b
-unk_RAM_59C:
+byte_RAM_59C:
 	.dsb 1 ; $059c
+byte_RAM_59D:
 	.dsb 1 ; $059d
 	.dsb 1 ; $059e
+unk_RAM_59F:
 	.dsb 1 ; $059f
 	.dsb 1 ; $05a0
 	.dsb 1 ; $05a1

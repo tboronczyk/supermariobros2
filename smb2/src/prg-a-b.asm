@@ -561,9 +561,9 @@ BonusChanceText_X_1:
 	.db $22, $30, $03
 	.db $EA, $FB, $D1
 BonusChanceText_EXTRA_LIFE_1:
-	.db $22, $C9, $0F
-	.db $DE, $F1, $ED, $EB, $DA, $FB, $E5, $E2, $DF, $DE ; EXTRA LIFE
-	.db $F9, $F9, $F9, $FB, $D1 ; ... 1
+	.db $22, $C8, $12
+	.db $EB, $DE, $EC, $ED, $DA, $E7, $ED, $DA, $E3, $FB ; RESTANTAJ
+	.db $EF, $E2, $EF, $E8, $E3, $FB, $FB, $D1 ; VIVOJ  1
 	.db $00
 
 BonusChanceBackgroundPalettes:

@@ -2000,7 +2000,7 @@ sub_BANKF_EA33:
 	STY PPUADDR
 
 loc_BANKF_EA43:
-	LDA unk_RAM_59C, Y
+	LDA unk_RAM_59F, Y
 	STA PPUDATA
 	INY
 	CPY #$10
@@ -2029,8 +2029,8 @@ sub_BANKF_EA68:
 	DEY
 	TYA
 	JSR GetTwoDigitNumberTiles
-	STY byte_RAM_599
-	STA byte_RAM_59A
+	STY byte_RAM_59C
+	STA byte_RAM_59D
 
 	LDA SlotMachineCoins
 	CLC
