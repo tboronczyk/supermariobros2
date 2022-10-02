@@ -624,9 +624,9 @@ BonusChanceUnused_BONUS_CHANCE:
 
 BonusChanceText_NO_BONUS:
 	.db $22, $86, $14
-	.db $FB, $FB, $FB, $FB, $FB, $FB
-	.db $E7, $E8, $FB, $DB, $E8, $E7, $EE, $EC ; NO BONUS
-	.db $FB, $FB, $FB, $FB, $FB, $FB
+	.db $FB, $FB, $FB, $FB
+	.db $E7, $EE, $E5, $FB, $E6, $E8, $E7, $DE, $EB, $E8, $E3 ; NUL MONEROJ
+	.db $FB, $FB, $FB, $FB, $FB
 	.db $00
 
 BonusChanceText_PUSH_A_BUTTON:
