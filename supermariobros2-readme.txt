@@ -32,11 +32,8 @@ Vi devas posedi fizikan kopion de la kartoĉo de Super Mario
 Bros. 2. Alŝulti ROM-on de videoludo, kiun vi ne posedas,
 povas esti pirateco.
 
-    Super Mario Bros. 2 (World).nes
-    CRC32: 57ac67af
-
-    Super Mario Bros. 2 (USA) (Rev 1).nes
-    CRC32: ca594ace
+    Super Mario Bros. 2 (USA) (Rev A)
+    CRC32: E0CA425C
 
 HISTORIO
 --------

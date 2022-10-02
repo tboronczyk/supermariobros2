@@ -12,7 +12,7 @@ copyrights on the original game belong to Nintendo.
 You *must* own a physical copy of the Super Mario Bros 2 cartridge. Downloading
 the ROM of any game which you do not own may be considered piracy.
 
-  * Super Mario Bros 2 - CRC32 `7D3F6F3D`
+  * Super Mario Bros 2 (USA) (Rev A) - CRC32 `E0CA425C`
 
 Special thanks to Xkeeper0 for the
 [Super Mario Bros. 2, Discombobulated](https://github.com/Xkeeper0/smb2)
