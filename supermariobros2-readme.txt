@@ -50,3 +50,5 @@ Timoteo BORONCZYK/bluephoenix
 Zerbie HYNSON/Terpomo11
  - Traduka konsultisto
 
+Specialajn dankojn al Xkeeper0 por la projekto Super Mario
+Bros. 2, Discombobulated (https://github.com/Xkeeper0/smb2)

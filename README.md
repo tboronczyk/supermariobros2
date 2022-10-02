@@ -14,6 +14,10 @@ the ROM of any game which you do not own may be considered piracy.
 
   * Super Mario Bros 2 - CRC32 `7D3F6F3D`
 
+Special thanks to Xkeeper0 for the
+[Super Mario Bros. 2, Discombobulated](https://github.com/Xkeeper0/smb2)
+project.
+
 ## Screenshots
 
 Here are some pretty screenshots:
