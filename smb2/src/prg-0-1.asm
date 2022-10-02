@@ -7259,7 +7259,7 @@ EndingCelebrationText_MARIO:
 	.db $00
 
 EndingCelebrationText_PRINCESS:
-	.db $20, $ED, $08, $E9, $EB, $E2, $E7, $DC, $DE, $EC, $EC
+	.db $20, $ED, $08, $E9, $EB, $E2, $E7, $DC, $E2, $E7, $E8
 	.db $00
 
 EndingCelebrationText_TOAD:
