@@ -44,7 +44,3 @@ dd if=gfx/pow5.bin of="$ROM" conv=notrunc bs=1 seek=$((0x28410))
 dd if=gfx/pow6.bin of="$ROM" conv=notrunc bs=1 seek=$((0x28C10))
 dd if=gfx/pow7.bin of="$ROM" conv=notrunc bs=1 seek=$((0x29410))
 dd if=gfx/pow8.bin of="$ROM" conv=notrunc bs=1 seek=$((0x29C10))
-
-# see https://tcrf.net/Super_Mario_Bros._2_(NES)
-echo "\nFix missing animation frame..."
-echo -n '(' | dd of="$ROM" conv=notrunc bs=1 seek=$((0x1FB05))
