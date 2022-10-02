@@ -26,5 +26,7 @@ Here are some pretty screenshots:
 
 ![Character select](images/image-2.png)
 
+![Bonus Chance](images/image-3.png)
+
 ![Contributions](images/image-4.png)
 
