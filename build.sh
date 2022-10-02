@@ -2,11 +2,10 @@
 
 set -e
 
-if [ "$#" -ne 1 ]; then
-    echo "usage: $(basename "$0") ROM" 1>&2
-    exit
-fi
-ROM="$1"
+ORIG='Super Mario Bros 2 (USA) (Rev A).nes'
+ROM="supermariobros2-eo.nes"
+IPS="supermariobros2-eo.ips"
+FLIPS="wine /opt/floating/flips.exe"
 
 echo "\nAssemble ROM"
 cd smb2
@@ -44,3 +43,7 @@ dd if=gfx/pow5.bin of="$ROM" conv=notrunc bs=1 seek=$((0x28410))
 dd if=gfx/pow6.bin of="$ROM" conv=notrunc bs=1 seek=$((0x28C10))
 dd if=gfx/pow7.bin of="$ROM" conv=notrunc bs=1 seek=$((0x29410))
 dd if=gfx/pow8.bin of="$ROM" conv=notrunc bs=1 seek=$((0x29C10))
+
+echo "Generating patch..."
+$FLIPS -c -i "$ORIG" "$ROM" "$IPS"
+
