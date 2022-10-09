@@ -26,7 +26,13 @@ Here are some pretty screenshots:
 
 ![Character select](images/image-2.png)
 
-![Bonus Chance](images/image-3.png)
+![World card](images/image-3.png)
 
-![Contributions](images/image-4.png)
+![Gameplay](images/image-4.png)
+
+![Bonus Chance](images/image-5.png)
+
+![Contributions](images/image-6.png)
+
+![The End](images/image-7.png)
 
