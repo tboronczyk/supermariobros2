@@ -1,5 +1,5 @@
 Super Mario Bros. 2 (NES)
-Traduko al Esperanto 
+Traduko al Esperanto (09/10/2022)
 
 ENKONDUKO
 ---------
@@ -36,7 +36,8 @@ povas esti pirateco.
 
 HISTORIO
 --------
-
+v1.0  09/10/2022
+ - Unua eldono
 
 KONTRIBUANTOJ
 -------------
