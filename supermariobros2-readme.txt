@@ -11,20 +11,19 @@ La retpaĝo por la projekto estas
 
 PRISKRIBO DE LUDO
 -----------------
-Jen intensa, ago-plena batalo por liberigi la landon Subcon
+Jen intensa, ekscita batalo por liberigi la landon Subcon
 de la sorĉaĵo de la malbona reĝo, Wart. Estas vi, kun
 Mario, Luigi, Toad, kaj la Princino, kiu batalos tra
 strangaj, mult-nivelaj mondoj kaj venkos lin!
 
-Ĉi-foje, vi havas novan kapablon — rikolta povo — kaj io
-ajn, kion vi trovas, fariĝus armilo. Sed estu zorge! Vi
-neniam antaŭe vidis estaĵojn kiel tiuj! Shyguy kaj Tweeter!
+Ĉi-foje, vi havas novan kapablon — plukan povon — kaj io
+ajn, kion vi trovas, fariĝas armilo. Sed estu zorge! Vi
+neniam antaŭe vidis ĉi tiajn bestojn! Shyguy kaj Tweeter!
 Ninji kaj Beezo! La armeanoj de Wart estas strangaj kaj
 danĝeraj. Gardu vin!
 
-Vi neniam spertis aventuron kiel ĉi tiun! Nur ruzeco kaj
-rapido savos vin. Ĉu vi kapablas savi la landon Subcon? Aŭ
-ĉu Wart ridos laste? 
+Vi neniam spertis ĉi tian aventuron! Nur ruzeco kaj
+rapideco savos vin. Ĉu vi kapablas savi la landon Subcon?
 
 INFORMOJ PRI ROM
 ----------------
