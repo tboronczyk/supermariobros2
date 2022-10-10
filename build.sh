@@ -7,13 +7,13 @@ ROM="supermariobros2-eo.nes"
 IPS="supermariobros2-eo.ips"
 FLIPS="wine /opt/floating/flips.exe"
 
-echo "\nAssemble ROM"
+echo "Assembling ROM..."
 cd smb2
 sh build.sh || true
 cp bin/smb2.nes ../$ROM
 cd ..
 
-echo "\nUpdating font..."
+echo "Updating font..."
 dd if=gfx/cx.bin of="$ROM" conv=notrunc bs=1 seek=$((0x2AEB0))
 dd if=gfx/gx.bin of="$ROM" conv=notrunc bs=1 seek=$((0x2AF10))
 dd if=gfx/jx.bin of="$ROM" conv=notrunc bs=1 seek=$((0x2AD00))
@@ -32,7 +32,7 @@ dd if=gfx/z.bin of="$ROM" conv=notrunc bs=1 seek=$((0x31720))
 dd if=gfx/z.bin of="$ROM" conv=notrunc bs=1 seek=$((0x31F20))
 dd if=gfx/plus.bin of="$ROM" conv=notrunc bs=1 seek=$((0x2DFB0))
 
-echo "\nUpdating graphics..."
+echo "Updating graphics..."
 dd if=gfx/bomb.bin of="$ROM" conv=notrunc bs=1 seek=$((0x22210))
 dd if=gfx/1up.bin of="$ROM" conv=notrunc bs=1 seek=$((0x22710))
 dd if=gfx/pow1.bin of="$ROM" conv=notrunc bs=1 seek=$((0x26410))
@@ -49,3 +49,4 @@ dd if=gfx/theend.bin of="$ROM" conv=notrunc bs=1 seek=$((0x32110))
 echo "Generating patch..."
 $FLIPS -c -i "$ORIG" "$ROM" "$IPS"
 
+echo "Done"
